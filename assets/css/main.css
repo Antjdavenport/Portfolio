@@ -1,11 +1,4 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: STANLEY - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
+
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
@@ -239,4 +232,50 @@ bt {
 .glyphicon {
 	font-size: 40px;
 	color: #1abc9c;
+
 }
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.portfolio-item {
+margin-bottom: 25px;
+}
+
+#overlay {
+    background: rgba(0, 0, 0, .9);
+    color: #fff;
+    margin-top: 150px;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+ 
+#overlay h2 {
+    font: 200 4em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+ 
+#overlay p {
+    font: 100 1.2em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#theMap iframe {
+
+	height: 100%;
+	width: 100%;
+}
+
+
